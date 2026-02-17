@@ -336,9 +336,7 @@ section.timeline {
   color: var(--text-muted);
 }
 
-/* =========================
-   FOOTER TEXT
-========================= */
+
 .timeline-instruction {
   text-align: center;
   margin: 1rem auto 4rem;
@@ -351,13 +349,59 @@ section.timeline {
   text-transform: uppercase;
 }
 
-.subscription h2 {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  text-align: center;
-  margin: 1rem auto 1rem;
-  margin-bottom: 2rem;
+
+/* =========================
+   SUBSCRIPTION SECTION
+========================= */
+
+.subscription {
+  margin-bottom: 3rem;
+  button {
+    background-color: #00c6fdcc;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 }
+
+.subscription-card {
+  background-color: #003c71;
+}
+
+.subscription-card h2, label {
+  color: white;
+  font-weight: 600;
+}
+
+.text-center.mb-4 {
+  color: white;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.site-footer {
+  background-color: #111;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.site-footer a {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+  color: #fff;
+}
+
 
 /* =========================
    RESPONSIVE
