@@ -52,7 +52,7 @@ body {
 ========================= */
 header {
   position: relative;
-  height: 30vh;
+  height: 25vh;
   background-color: #0067b586;
 
   background-position: bottom;
@@ -126,7 +126,7 @@ section.timeline {
 ========================= */
 .timeline-card {
   flex: 0 0 70vw;              /* REQUIRED for horizontal scroll */
-  min-height: 60vh;
+  min-height: 50vh;
 
   position: relative;
   border-radius: 18px;
@@ -303,11 +303,46 @@ section.timeline {
 }
 
 /* =========================
+   BOOTSTRAP GRID SECTION
+========================= */
+
+.sustainability-highlights {
+  background-color: #0067b586;
+  border-radius: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.highlight-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+.highlight-card h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1rem;
+  color: var(--intel-blue);
+}
+
+.highlight-card p {
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+/* =========================
    FOOTER TEXT
 ========================= */
 .timeline-instruction {
   text-align: center;
   margin: 1rem auto 4rem;
+  margin-bottom: 1rem;
   font-size: 0.95rem;
   color: #00C7FD;
   max-width: 100%;
@@ -315,6 +350,15 @@ section.timeline {
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
+
+.subscription h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 1rem auto 1rem;
+  margin-bottom: 2rem;
+}
+
 /* =========================
    RESPONSIVE
 ========================= */
